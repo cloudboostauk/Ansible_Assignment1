@@ -1,2 +1,6 @@
 [all]
 100.25.34.234 # The public IP will be different in your case
+
+[all:vars] 
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/Ansible_host.pem
